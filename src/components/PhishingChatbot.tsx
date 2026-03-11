@@ -149,7 +149,7 @@ export function PhishingChatbot({ initiallyOpen = false }: PhishingChatbotProps)
             {hasTriggeredPhishing && messages[messages.length - 1].type === 'bot' && messages[messages.length - 1].text.includes('FELL FOR') && (
               <div className="mt-4 bg-yellow-50 border border-yellow-300 rounded p-3">
                 <p className="text-xs text-yellow-800">
-                  <strong>Lesson:</strong> Always verify links and never click suspicious links from unknown sources. Check the URL in your browser's address bar!
+                  <strong>Lesson:</strong> Always verify links and never click suspicious links from unknown sources. Check the URL in your browser&apos;s address bar!
                 </p>
               </div>
             )}

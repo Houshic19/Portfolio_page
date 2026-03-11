@@ -30,10 +30,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <div className="flex flex-col">
             <div className="text-2xl font-bold text-cyan-400">
-              {"<SOC Analyst />"}
+              {'<SOC Analyst />'}
             </div>
             <p className="text-xs text-cyan-300/70 hidden sm:block">
-              "Turning blue alerts into green fixes, one incident at a time 🎯"
+              {"Turning blue alerts into green fixes, one incident at a time 🎯"}
             </p>
           </div>
 
