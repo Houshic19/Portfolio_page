@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowRight, Shield, Code, Download } from 'lucide-react'
+import { ArrowRight, Shield, Download } from 'lucide-react'
 
 export default function Hero() {
   const handleViewWork = () => {
