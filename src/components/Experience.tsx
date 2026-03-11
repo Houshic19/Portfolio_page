@@ -1,6 +1,6 @@
 'use client'
 
-import { Briefcase, Calendar } from 'lucide-react'
+import { Calendar } from 'lucide-react'
 import { useScrollAnimation } from '@/hooks/useScrollAnimation'
 
 interface Experience {
